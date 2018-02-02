@@ -3,12 +3,8 @@
 int main()
 {
     char ch;
-    
-    /* Input a character from user */
-    printf("Enter any character: ");
+    printf("Enter any ch: ");
     scanf("%c", &ch);
-    
-
     if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
     {
         printf("Character is an ALPHABET.");
